@@ -1,2 +1,2 @@
 # Crypto_rates
-Simple Python3 Crypto coin rate checker
+Simple Python3 BTC-e crypto coin rate checker
