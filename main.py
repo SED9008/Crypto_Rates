@@ -25,4 +25,4 @@ print('EUR(LTC)		: ' + str(LTC*float(ltc_eu.string)))
 print('EUR(LTC>BTC)		: ' + str(LTC*float(ltc_btc.string)*float(btc_eu.string)) + '\n')
 
 # Example to link the script to a command
-# sudo ln -s /home/<user>/Projects/CryptoRate/main.py /usr/bin/crypto_rate
+# sudo ln -s /home/<user>/Projects/Crypto_rates/main.py /usr/bin/crypto_rate
