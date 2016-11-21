@@ -9,7 +9,7 @@ BTC = 999
 
 url = 'http://btc-e.com'
 page = urllib.request.urlopen(url)
-soup = BeautifulSoup(page.read())
+soup = BeautifulSoup(page.read(), 'lxlm')
 
 btc_eu 	= soup.find(id='last19')
 ltc_eu 	= soup.find(id='last27')
